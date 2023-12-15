@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5A9A1B42B2CD3A9003F0EF7 /* PlayerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A9A1B32B2CD3A9003F0EF7 /* PlayerButton.swift */; };
+		B5A9A1B62B2CD3B7003F0EF7 /* Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A9A1B52B2CD3B7003F0EF7 /* Scroll.swift */; };
+		B5A9A1B82B2CD3C8003F0EF7 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A9A1B72B2CD3C8003F0EF7 /* Util.swift */; };
 		F4EEFFAF2B148A0300C32EBC /* ios_itmo_2023_assignment_5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EEFFAE2B148A0300C32EBC /* ios_itmo_2023_assignment_5App.swift */; };
 		F4EEFFB32B148A0500C32EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EEFFB22B148A0500C32EBC /* Assets.xcassets */; };
 		F4EEFFB62B148A0500C32EBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EEFFB52B148A0500C32EBC /* Preview Assets.xcassets */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5A9A1B32B2CD3A9003F0EF7 /* PlayerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerButton.swift; sourceTree = "<group>"; };
+		B5A9A1B52B2CD3B7003F0EF7 /* Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll.swift; sourceTree = "<group>"; };
+		B5A9A1B72B2CD3C8003F0EF7 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		F4EEFFAB2B148A0300C32EBC /* ios-itmo-2023-assignment-5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-itmo-2023-assignment-5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EEFFAE2B148A0300C32EBC /* ios_itmo_2023_assignment_5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_itmo_2023_assignment_5App.swift; sourceTree = "<group>"; };
 		F4EEFFB22B148A0500C32EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +66,7 @@
 				F4EEFFBD2B148A9100C32EBC /* Part 2 */,
 				F4EEFFB22B148A0500C32EBC /* Assets.xcassets */,
 				F4EEFFB42B148A0500C32EBC /* Preview Content */,
+				B5A9A1B72B2CD3C8003F0EF7 /* Util.swift */,
 			);
 			path = "ios-itmo-2023-assignment-5";
 			sourceTree = "<group>";
@@ -77,6 +84,8 @@
 			children = (
 				F4EEFFBE2B148AC200C32EBC /* Screen_1_1.swift */,
 				F4EEFFC02B148ACC00C32EBC /* Screen_1_2.swift */,
+				B5A9A1B32B2CD3A9003F0EF7 /* PlayerButton.swift */,
+				B5A9A1B52B2CD3B7003F0EF7 /* Scroll.swift */,
 			);
 			path = "Part 1";
 			sourceTree = "<group>";
@@ -161,8 +170,11 @@
 			files = (
 				F4EEFFC42B148ADB00C32EBC /* Screen_2_1.swift in Sources */,
 				F4EEFFC12B148ACC00C32EBC /* Screen_1_2.swift in Sources */,
+				B5A9A1B62B2CD3B7003F0EF7 /* Scroll.swift in Sources */,
 				F4EEFFAF2B148A0300C32EBC /* ios_itmo_2023_assignment_5App.swift in Sources */,
+				B5A9A1B82B2CD3C8003F0EF7 /* Util.swift in Sources */,
 				F4EEFFBF2B148AC200C32EBC /* Screen_1_1.swift in Sources */,
+				B5A9A1B42B2CD3A9003F0EF7 /* PlayerButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
